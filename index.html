@@ -10,47 +10,69 @@
     <link href="styles.css" rel="stylesheet" />
     <title>GYMSIUM</title>
   </head>
-  <body>
+  <body class="t-img-gray">
     <!-- START PAGE WRAP -->
     <div class="page-wrapper">
-        <!-- header -->
-        <header class="header">
-            <div class="header__container container">
-                <a href="#" class="header__logo-link">
-                    <img src="img/1.png" alt="logo" class="header__logo logo">
-                </a>
-                <button type="button" class="header__toggler js-header-toggler">
-                    <span class="header__toggler-text" data-text="Close">Menu</span>
-                </button>
-                <nav class="header__nav js-header-nav">
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a href="#home" class="header__link">home</a>
-                            <span class="header__line line"></span>
-                        </li>
-                        <li class="header__item">
-                            <a href="#about" class="header__link">about</a>
-                            <span class="header__line line"></span>
-                        </li>
-                        <li class="header__item">
-                            <a href="#services" class="header__link">services</a>
-                            <span class="header__line line"></span>
-                        </li>
-                        <li class="header__item">
-                            <a href="#pricing" class="header__link">pricing</a>
-                            <span class="header__line line"></span>
-                        </li>
-                        <li class="header__item">
-                            <a href="#team" class="header__link">team</a>
-                            <span class="header__line line"></span>
-                        </li>
-                        <li class="header__item">
-                            <a href="#contact" class="header__link">contact</a>
-                        </li>
-                    </ul>
-                </nav>
+      <!-- HEADER -->
+      <header class="header">
+        <div class="header__container container">
+          <a href="#" class="header__logo-link">
+            <img src="img/1.png" alt="logo" class="header__logo logo" />
+          </a>
+          <button type="button" class="header__toggler js-header-toggler">
+            <span class="header__toggler-text" data-text="Close">Menu</span>
+          </button>
+          <nav class="header__nav js-header-nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#home" class="header__link">home</a>
+                <span class="header__line line"></span>
+              </li>
+              <li class="header__item">
+                <a href="#about" class="header__link">about</a>
+                <span class="header__line line"></span>
+              </li>
+              <li class="header__item">
+                <a href="#services" class="header__link">services</a>
+                <span class="header__line line"></span>
+              </li>
+              <li class="header__item">
+                <a href="#pricing" class="header__link">pricing</a>
+                <span class="header__line line"></span>
+              </li>
+              <li class="header__item">
+                <a href="#team" class="header__link">team</a>
+                <span class="header__line line"></span>
+              </li>
+              <li class="header__item">
+                <a href="#contact" class="header__link">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container">
+          <div class="home__back">
+            <div class="home__img-box">
+              <img src="img/2.jpg" alt="img" class="home__img" />
+              <div class="img-cover"></div>
+              <div class="img-cover"></div>
             </div>
-        </header>
+          </div>
+          <div class="home__front">
+            <h1 class="home__title-wrap">
+              <span class="home__title">no pain</span>
+              <span class="home__title">no gain</span>
+            </h1>
+            <div class="home__btn-wrap">
+              <a href="#about" class="btn btn--2">about us</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <!-- END PAGE WRAP -->
     <script src="index.js"></script>
